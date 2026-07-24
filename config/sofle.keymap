@@ -44,7 +44,7 @@
                  &kp LALT &kp LGUI    &mo1_orange &kp F13 &kp SPACE    &kp RET      &kp F14 &kp RGUI &kp RSHFT &kp SQT
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_msc SCRL_RIGHT SCRL_LEFT>;
+            sensor-bindings = <&inc_dec_kp PG_UP PG_DN inc_dec_kp PG_UP PG_DN>;
         };
 
         lower_layer {
@@ -62,7 +62,7 @@
                          &kp KP_N0   &trans       &trans       &trans    &kp SPACE   &kp RET   &kp K_COPY &kp K_PASTE &kp RSHFT &kp PSCRN
             >;
 
-            sensor-bindings = <&inc_dec_msc SCRL_RIGHT SCRL_LEFT &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp inc_dec_kp PG_UP PG_DN &inc_dec_kp PG_UP PG_DN>;
         };
     };
 };
